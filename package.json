@@ -1,0 +1,21 @@
+{
+  "name": "es6katas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mocha": "mocha katas --require @babel/register --require=mocha-require.js",
+    "koans": "mocha katas --require @babel/register --require=mocha-require.js --bail || true",
+    "test": "npm run koans"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5",
+    "@babel/register": "^7.0.0",
+    "mocha": "^5.2.0"
+  }
+}
