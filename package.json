@@ -16,6 +16,6 @@
     "@babel/core": "^7.1.5",
     "@babel/preset-env": "^7.1.5",
     "@babel/register": "^7.0.0",
-    "mocha": "^5.2.0"
+    "mocha": "^10.2.0"
   }
 }
